@@ -1,7 +1,7 @@
-# Realtime Chat
-Aplikasi realtime chat dengan VueJs sebagai client-side dan Laravel sebagai server-side. Memadukan [Socket.io](https://github.com/socketio/socket.io) dan [Laravel Echo](https://github.com/tlaverdure/laravel-echo-server).
+# SELV Realtime Chat
+SELV (akronim dari Socket.io, Echo, Laravel, dan Vue) adalah aplikasi realtime chat dengan VueJs sebagai client-side dan Laravel sebagai server-side. Memadukan [Socket.io](https://github.com/socketio/socket.io) dan [Laravel Echo](https://github.com/tlaverdure/laravel-echo-server).
 #### Incoming Features
-* General chat ( WIP )
+* General chat
 * Private chat ( WIP )
 * Team chat ( WIP )
 
