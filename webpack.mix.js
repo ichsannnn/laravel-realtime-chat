@@ -11,5 +11,14 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/assets/js/app.js', 'public/js')
-   .sass('resources/assets/sass/app.scss', 'public/css');
+ mix.js('resources/assets/js/app.js', 'public/js')
+    .sass('resources/assets/sass/app.scss', 'public/css')
+    .browserSync('realtime-chat.test')
+    .styles([
+      'public/assets/css/material-icons.css',
+      'public/assets/css/custom.css'
+    ], 'public/css/custom.css')
+    .scripts([
+      'public/assets/js/custom.js'
+    ], 'public/js/custom.js')
+    .version();
