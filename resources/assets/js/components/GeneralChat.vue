@@ -20,7 +20,7 @@
             </div>
           </div>
           <div class="chat-input">
-            <form action="#">
+            <form id="chatForm">
               <div class="chat-input-bar">
                 <textarea id="message" class="materialize-textarea" style="height: 72px;" v-model="messageBox" @keyup.enter="sendMessage"></textarea>
                 <!-- EMOJI -->
@@ -109,6 +109,7 @@
             });
 
             this.messageBox = '';
+            $('#chatForm').reset();
           },
           scrollToLast() {
             $('.chat-wrapper').scrollTop($('.chat-wrapper').prop('scrollHeight'));

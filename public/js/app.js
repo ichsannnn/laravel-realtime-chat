@@ -1853,6 +1853,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
       });
 
       this.messageBox = '';
+      $('#chatForm').reset();
     },
     scrollToLast: function scrollToLast() {
       $('.chat-wrapper').scrollTop($('.chat-wrapper').prop('scrollHeight'));
@@ -71194,7 +71195,7 @@ var render = function() {
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "chat-input" }, [
-            _c("form", { attrs: { action: "#" } }, [
+            _c("form", { attrs: { id: "chatForm" } }, [
               _c("div", { staticClass: "chat-input-bar" }, [
                 _c("textarea", {
                   directives: [
