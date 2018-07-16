@@ -1,5 +1,5 @@
 @extends('layouts.app')
 
 @section('content')
-  <general-chat profile-image="{{ asset('avatar.jpg') }}"></general-chat>
+  <general-chat profile-image="{{ $gravatar }}"></general-chat>
 @endsection
