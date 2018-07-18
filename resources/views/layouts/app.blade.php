@@ -53,11 +53,7 @@
       </main>
     </div>
   </body>
-  <script src="{{ asset('assets/plugins/perfect-scrollbar/perfect-scrollbar.js') }}"></script>
   <script src="{{ asset(mix('js/app.js')) }}"></script>
-  <script>
-  var ps = new PerfectScrollbar('.chat-wrapper');
-  </script>
 
   <script>
     $(".dropdown-button").dropdown();
